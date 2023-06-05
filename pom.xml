@@ -11,10 +11,8 @@ This pom executes a maven target on ALL the (eclipse) features that compose the 
 	<artifactId>modelio-parent</artifactId>
 	<version>5.3.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<properties>
-	  <sonar.organization>grantovius</sonar.organization>
-	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	</properties>
+
+	
 	<properties>
 		<tycho-version>2.2.0</tycho-version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
@@ -26,6 +24,9 @@ This pom executes a maven target on ALL the (eclipse) features that compose the 
 		<modelio.version>5.3.1-SNAPSHOT</modelio.version>
 		<newVersion>5.3.1</newVersion>
 		<modelio.ws.path>${project.basedir}/${project.parent.relativePath}</modelio.ws.path>
+		
+		<sonar.organization>grantovius</sonar.organization>
+	  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	
 
